@@ -1,22 +1,162 @@
-# Mini-Calculatrice-
- Calculatrice modulaire en C 🚀 Projet académique (UAC) incluant : 🔹 Arithmétique &amp; Dénombrement (n!, Anp​, Cnp​) 🔹 Équations du 2nd degré 🔹 Algorithmes de nombres premiers &amp; pairs 🔹 Tables de multiplication par intervalle Code structuré, saisies sécurisées et interface interactive. 💻✨
+# 🧮 Mini Calculatrice en C
 
 
-    Projet Académique – Travaux Pratiques de Programmation (Contrôle Continu)
+---
 
-Ce projet implémente une calculatrice interactive en console, structurée de manière modulaire pour traiter des calculs arithmétiques, combinatoires et algorithmiques complexes.
-🛠️ Fonctionnalités du Système
-📁 Gestion des Menus
+## 👋 Bienvenue
 
-    Interface Principale : Sélection parmi 7 modules thématiques.
+Mini **calculatrice en langage C** réalisée dans le cadre du **TP de Langage C (Contrôle Continu)**.
 
-    Sous-Menus Dynamiques : Navigation fluide pour l'arithmétique (Menu 1) et le dénombrement (Menu 2).
+💡 Programme console basé sur un **système de menus interactifs**.
 
-🔢 Modules Mathématiques
-Module	Description & Contraintes
-Arithmétique	Opérations n-aires (Addition, Soustraction, Multiplication, Division).
-Dénombrement	Factorielles, Arrangements (Anp​) et Combinaisons (Cnp​) avec n≤p et n,p≥0.
-Algèbre	Résolution d'équations du second degré (ax2+bx+c=0).
-Théorie des Nombres	Génération des n premiers nombres pairs et premiers.
-Analyse	Calcul de la valeur absolue $
-Itération	Tables de multiplication par intervalle [u,k] (ex: de 5 à 7).
+---
+
+# 📋 Menu principal
+
+```
+1️⃣ Calculs arithmétiques
+2️⃣ Dénombrement
+3️⃣ Equation du second degré
+4️⃣ Nombres pairs
+5️⃣ Nombres premiers
+6️⃣ Valeur absolue
+7️⃣ Table de multiplication
+```
+
+---
+
+# ➕ Calculs arithmétiques
+
+```
+a) Addition de n nombres
+b) Soustraction de n nombres
+c) Multiplication de n nombres
+d) Division de n nombres par m nombres
+```
+
+---
+
+# 🔢 Dénombrement
+
+```
+a) Factoriel (n!)
+b) Arrangement (Anp)
+c) Combinaison (Cnp)
+```
+
+📌 Contraintes :
+
+```
+n ≥ 0
+p ≥ 0
+n ≤ p
+```
+
+---
+
+# 📐 Equation du second degré
+
+Résolution de :
+
+```
+ax² + bx + c = 0
+```
+
+Calcul :
+
+✔ discriminant Δ
+✔ solutions de l'équation
+
+---
+
+# 🔵 Nombres pairs
+
+Affiche les **n premiers nombres pairs**.
+
+Exemple :
+
+```
+2 4 6 8 10 ...
+```
+
+---
+
+# 🔷 Nombres premiers
+
+Affiche les **n premiers nombres premiers**.
+
+Exemple :
+
+```
+2 3 5 7 11 ...
+```
+
+---
+
+# 📏 Valeur absolue
+
+Calcul de :
+
+```
+|n|
+```
+
+Exemple :
+
+```
+|-8| = 8
+```
+
+---
+
+# ✖ Table de multiplication
+
+Entrée :
+
+```
+u et k
+```
+
+Conditions :
+
+```
+u > 0
+k ≥ u
+```
+
+Exemple :
+
+```
+TABLE DE 5
+5 × 1 = 5
+...
+5 × 12 = 60
+```
+
+---
+
+# ⚙️ Compilation
+
+```bash
+gcc calculatrice.c -o calculatrice
+```
+
+# ▶ Exécution
+
+```bash
+./calculatrice
+```
+
+---
+
+# 🧠 Concepts utilisés
+
+✨ Boucles `for`
+✨ Boucles `while`
+✨ `switch`
+✨ Fonctions
+✨ Conditions
+
+---
+
+
