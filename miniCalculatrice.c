@@ -289,7 +289,11 @@ int main()
 
             printf("Votre équation du second degré est : %dx² + %dx + %d = 0\n", a, b, c);
 
-            if (a == 0 && b == 0)
+            if (a == 0 && b == 0 && c == 0)
+            {
+                printf("Toutes les valeurs de x sont solutions de l'équation\nMerci d'avoir utilisé ce programme.");
+            }
+            else if (a == 0 && b == 0)
             {
                 printf("L'équation n'admet pas de solution.\nSoit SR l'ensemble des solutions dans R, SR:{ }\nMerci d'avoir utilisé ce programme.");
             }
